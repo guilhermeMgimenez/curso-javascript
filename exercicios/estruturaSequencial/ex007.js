@@ -1,5 +1,6 @@
-let lado = 6
+function areas(){
+let lado = document.querySelector("#lado").value
 let area = lado * lado
 
-console.log("a area é", area)
-console.log("o dobro da area é", area * 2)
+document.querySelector("#resultado").innerHTML = 'o valor da area é ' + area
+}

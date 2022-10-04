@@ -1,3 +1,5 @@
-let grauF = 70
-let grauC = 5* ((grauF-37)/9)
-console.log("a temperatura em graus celcius é", grauC)
+function graus(){
+let grauF = parseFloat(document.querySelector("#grauF").value)
+let grauC = ((grauF-32)/1.8)
+document.querySelector("#resultado").innerHTML = 'graus celsius:'+ grauC
+}
